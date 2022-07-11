@@ -1,0 +1,24 @@
+.checked {
+    color: orange;
+}
+
+
+td,th,tr{
+    text-align: center;
+}
+
+
+p::after {
+    content: " *";
+    color:red;
+    font-size:15px;
+  }
+
+  body{
+      padding-left:25px;
+      padding-top:1px;
+  }
+
+  th{
+      width:20em;
+      }
